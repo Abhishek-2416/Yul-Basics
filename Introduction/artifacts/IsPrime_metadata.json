@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "isPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "p",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrime",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introduction/02_Basic Operations.sol": "IsPrime"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introduction/02_Basic Operations.sol": {
+			"keccak256": "0x6a82316b548cf7e05adc4d812872957f0f3f7a4f19afcc785de90327197c4c30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b0165bea0e01ca0dedfb303798413177f4ab0d7f441af33294cb1c5eca311be",
+				"dweb:/ipfs/QmWWhFEyndzHzg2f1Ya1tRZ1Kq8F56tcgMPgjmMncETi8A"
+			]
+		}
+	},
+	"version": 1
+}
